@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clubel | Telemedicina, seguro, cashback e cursos para profissionais da beleza</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<meta name="description" content="Clubel: clube de benefícios para donos de salão e profissionais da beleza. Telemedicina 24h, Seguro Familiar, descontos e cashbacks em mais de 20 mil estabelecimentos e cursos com a Unicorp.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========= ÍCONES PRÓPRIOS (sprite SVG, traço fino e moderno) ========= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-health" viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/><path d="M8 12.5h2l1.2-2.4 1.8 4 1.2-1.6H16"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 2.8v5.6c0 4.6-3.1 8.1-7.5 9.6-4.4-1.5-7.5-5-7.5-9.6V5.8L12 3z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.6"/></symbol>
+    <symbol id="i-tele" viewBox="0 0 24 24"><rect x="6.5" y="2.8" width="11" height="18.4" rx="3"/><path d="M12 8.2v5M9.5 10.7h5"/><path d="M10.5 18h3"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.5 12.2V4.8a1.3 1.3 0 0 1 1.3-1.3h7.4l8.3 8.3a1.3 1.3 0 0 1 0 1.8l-6.6 6.6a1.3 1.3 0 0 1-1.8 0L3.5 12.2z"/><circle cx="8.3" cy="8.3" r="1.4"/></symbol>
+    <symbol id="i-mega" viewBox="0 0 24 24"><path d="M4 10v4a1 1 0 0 0 1 1h2.5l8 4.5V4.5l-8 4.5H5a1 1 0 0 0-1 1z"/><path d="M19.2 9.2a4 4 0 0 1 0 5.6"/><path d="M7.5 15l1 4.2"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="11.5" rx="2"/><path d="M3 9h18v-0.5M12 9v11.5"/><path d="M12 9c-1.2-4.2-5.2-4.2-5.2-1.6C6.8 9 12 9 12 9zm0 0c1.2-4.2 5.2-4.2 5.2-1.6C17.2 9 12 9 12 9z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2.5 9.5L12 5l9.5 4.5L12 14 2.5 9.5z"/><path d="M6.5 11.8v4.2c0 1.4 2.5 2.8 5.5 2.8s5.5-1.4 5.5-2.8v-4.2"/><path d="M21.5 9.5v5"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 2.8l8.2 4.3v9.8L12 21.2l-8.2-4.3V7.1L12 2.8z"/><path d="M3.8 7.1L12 11.5l8.2-4.4M12 11.5v9.7"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6.5 2.8h7.6l4.4 4.4v12a2 2 0 0 1-2 2H6.5a2 2 0 0 1-2-2v-12.4a2 2 0 0 1 2-2z"/><path d="M14 3v4.5h4.5"/><path d="M8.5 14.2l2.2 2.2 4-4.4"/></symbol>
+    <symbol id="i-salon" viewBox="0 0 24 24"><path d="M4 9.5V20h16V9.5"/><path d="M2.8 9.5L4.5 4h15l1.7 5.5a2.7 2.7 0 0 1-5.2 0 2.7 2.7 0 0 1-5 0 2.7 2.7 0 0 1-5 0 2.7 2.7 0 0 1-5.2 0z"/><path d="M10 20v-5h4v5"/></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6.5" r="2.7"/><circle cx="6" cy="17.5" r="2.7"/><path d="M8.2 8.2L20 18M8.2 15.8L20 6"/></symbol>
+    <symbol id="i-nail" viewBox="0 0 24 24"><path d="M9 21v-7.2a3 3 0 0 1-1-2.3V6.2a4 4 0 0 1 8 0v5.3a3 3 0 0 1-1 2.3V21"/><path d="M9 21h6M12 3.2v3"/><path d="M19.5 3.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-13 15"/><path d="M5 19c3-4 6-6.5 10-8"/></symbol>
+    <symbol id="i-lip" viewBox="0 0 24 24"><rect x="8" y="12" width="8" height="9" rx="1.5"/><path d="M9 12V9.5l4.5-6.2c.5-.7 1.5 0 1.5.7V12"/><path d="M8 16h8"/></symbol>
+    <symbol id="i-foot" viewBox="0 0 24 24"><path d="M9 3.5c2.2 0 3.7 1.8 3.7 4.3 0 2.2-.6 3.6-.3 5.1.3 1.4 2.5 1.8 2.5 4.4 0 2.2-1.7 3.7-4 3.7-2.9 0-4.4-2.2-4.4-5.2V8C6.5 5.3 7.4 3.5 9 3.5z"/><circle cx="16" cy="5.5" r=".9"/><circle cx="18.2" cy="8" r=".9"/><circle cx="18.8" cy="11" r=".9"/></symbol>
+    <symbol id="i-hands" viewBox="0 0 24 24"><path d="M3 13c2-1 4-.5 5.5.8l2.5 2.2h3.3a1.7 1.7 0 0 1 0 3.4H9.5L7 18.6 3 20"/><path d="M13 14.5l4.2-1.3a2.3 2.3 0 0 1 2.8 1.6l.6 2.2"/><path d="M12 4.2c1.3-1.4 3.6-.6 3.6 1.3 0 1.9-3.6 4-3.6 4s-3.6-2.100-3.600-4c0-1.900 2.300-2.700 3.600-1.300z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.2"/><path d="M8 12.3l2.8 2.8L16.2 9.5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6-4.5-4.200 6.1-.800L12 3.200z"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24"><path d="M3.5 8.5a2 2 0 0 1 2-2h2l1.4-2h6.2l1.4 2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-9z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+    <symbol id="i-party" viewBox="0 0 24 24"><path d="M4 20l3.500-11.500L15.500 16.500 4 20z"/><path d="M10 6.500c0-1.500 1-2 1-3.500M14 10c1.200-1.200 2.500-.7 3.500-1.800M16.500 13.500c1.500-.300 2.500.500 4 0"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.100"/><circle cx="17.200" cy="6.800" r=".9" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path style="fill:currentColor;stroke:none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.500 7.500l8.500 6 8.500-6"/></symbol>
+  </defs>
+</svg>
+
+<div id="progress"></div>
+<div id="glow"></div>
+
+<!-- ========= HEADER ========= -->
+<header>
+  <div class="container nav">
+    <a href="#inicio" class="logo" aria-label="Clubel"><img id="logoImg" src="img/logo-clubel.png" alt="Clubel" width="168" height="36"></a>
+    <button class="burger" id="burger" aria-label="Abrir menu"><i></i><i></i><i></i></button>
+    <nav class="menu" id="menu">
+      <a href="#quem">Para quem</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#educacao">Educação</a>
+      <a href="#como">Como funciona</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#cadastro" class="btn btn-y">Cadastre-se</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ========= HERO ========= -->
+<section class="hero" id="inicio">
+  <canvas id="fx"></canvas>
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="container hero-grid">
+    <div>
+      <span class="tag"><b></b> Criado para os donos de salão de beleza</span>
+      <h1 id="h1">
+        <span class="w"><span>Mais</span></span> <span class="w"><span class="y">saúde,</span></span>
+        <span class="w"><span>proteção</span></span> <span class="w"><span>e</span></span>
+        <span class="w"><span class="p">crescimento</span></span> <span class="w"><span>para</span></span>
+        <span class="w"><span>quem</span></span> <span class="w"><span>faz</span></span>
+        <span class="w"><span>a</span></span> <span class="w"><span>beleza</span></span>
+        <span class="w"><span>acontecer.</span></span>
+      </h1>
+      <p class="lead">Telemedicina 24h para você e seus dependentes, Seguro Familiar, descontos e cashbacks em mais de 20 mil estabelecimentos e cursos com a Unicorp. Tudo em um só clube.</p>
+      <div class="hero-cta">
+        <a href="#cadastro" class="btn btn-y mag">Quero fazer parte <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a href="#beneficios" class="btn btn-o mag">Ver benefícios</a>
+      </div>
+    </div>
+    <aside class="vcard tilt"><div>
+      <h3>Dentro do Clubel você tem</h3>
+      <ul>
+        <li><svg class="ic"><use href="#i-tele"/></svg>Telemedicina 24h para você e dependentes</li>
+        <li><svg class="ic"><use href="#i-shield"/></svg>Seguro Familiar</li>
+        <li><svg class="ic"><use href="#i-tag"/></svg>Descontos e cashbacks em +20 mil lugares</li>
+        <li><svg class="ic"><use href="#i-cap"/></svg>Cursos e graduações com a Unicorp</li>
+        <li><svg class="ic"><use href="#i-gift"/></svg>Sorteios mensais e prêmios</li>
+      </ul>
+    </div></aside>
+  </div>
+</section>
+
+<!-- ========= MARQUEE ========= -->
+<div class="marquee" aria-hidden="true">
+  <div class="track" id="track">
+    <span>Telemedicina 24h <i class="sep"></i> Seguro Familiar <i class="sep"></i> Descontos e cashbacks <i class="sep"></i> Marketing digital <i class="sep"></i> Educação Unicorp <i class="sep"></i> Curso de maquiagem <i class="sep"></i> Sorteios mensais <i class="sep"></i></span>
+    <span>Telemedicina 24h <i class="sep"></i> Seguro Familiar <i class="sep"></i> Descontos e cashbacks <i class="sep"></i> Marketing digital <i class="sep"></i> Educação Unicorp <i class="sep"></i> Curso de maquiagem <i class="sep"></i> Sorteios mensais <i class="sep"></i></span>
+  </div>
+</div>
+
+<!-- ========= QUEM ========= -->
+<section id="quem">
+  <div class="container center">
+    <span class="eyebrow rv">Quem pode participar</span>
+    <h2 class="title rv" style="--d:.1s">Um clube feito para os <span class="y">profissionais</span> do setor</h2>
+    <p class="sub rv" style="--d:.2s">O Clubel foi criado para oferecer diversos tipos de benefícios aos donos de salão de beleza. Se o seu trabalho cuida da beleza das pessoas, o Clubel cuida de você.</p>
+    <div class="chips">
+      <div class="chip rv z" style="--d:.05s"><svg class="ic"><use href="#i-salon"/></svg>Proprietários de salões</div>
+      <div class="chip rv z" style="--d:.12s"><svg class="ic"><use href="#i-scissors"/></svg>Barbeiros</div>
+      <div class="chip rv z" style="--d:.19s"><svg class="ic"><use href="#i-nail"/></svg>Manicures</div>
+      <div class="chip rv z" style="--d:.26s"><svg class="ic"><use href="#i-leaf"/></svg>Esteticistas</div>
+      <div class="chip rv z" style="--d:.33s"><svg class="ic"><use href="#i-lip"/></svg>Maquiadoras</div>
+      <div class="chip rv z" style="--d:.4s"><svg class="ic"><use href="#i-foot"/></svg>Podologistas</div>
+      <div class="chip rv z" style="--d:.47s"><svg class="ic"><use href="#i-hands"/></svg>Massoterapeutas</div>
+    </div>
+    <p class="note">Participação para maiores de 18 anos.</p>
+  </div>
+</section>
+
+<!-- ========= BENEFÍCIOS ========= -->
+<section id="beneficios" style="padding-top:40px">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">Benefícios</span>
+      <h2 class="title rv" style="--d:.1s">Tudo para crescer com <span class="y">segurança</span></h2>
+      <p class="sub rv" style="--d:.2s">Um dia você tem que parar tudo para cuidar de você. É nessa hora que o Clubel te oferece benefícios de verdade.</p>
+    </div>
+    <div class="feature rv">
+      <div class="big"><svg class="ic"><use href="#i-tele"/></svg></div>
+      <div><h3>O Clubel se preocupa com você</h3><p>Serviço de Telemedicina para todos os associados: você e seus dependentes atendidos por médicos disponíveis 24 horas por dia.</p></div>
+      <div class="h24">24h<small>Telemedicina</small></div>
+    </div>
+    <div class="grid3">
+      <article class="card tilt rv" style="--d:.0s"><div class="cico"><svg class="ic"><use href="#i-tele"/></svg></div><h3>Telemedicina 24h</h3><p>Atendimento médico a qualquer hora, para você e seus dependentes.</p></article>
+      <article class="card tilt rv" style="--d:.08s"><div class="cico"><svg class="ic"><use href="#i-shield"/></svg></div><h3>Seguro Familiar</h3><p>Mais tranquilidade para o presente e para o futuro de quem você ama.</p></article>
+      <article class="card tilt rv" style="--d:.16s"><div class="cico"><svg class="ic"><use href="#i-tag"/></svg></div><h3>Descontos e cashbacks</h3><p>Vantagens em mais de 20 mil estabelecimentos em todo o país.</p></article>
+      <article class="card tilt rv" style="--d:.0s"><div class="cico"><svg class="ic"><use href="#i-cap"/></svg></div><h3>Educação com a Unicorp</h3><p>EJA, cursos profissionalizantes, graduações e pós-graduações, em parceria com o Grupo Unicorp.</p></article>
+      <article class="card tilt rv" style="--d:.08s"><div class="cico"><svg class="ic"><use href="#i-lip"/></svg></div><h3>Curso de maquiagem</h3><p>Maquiagem profissional em 20 aulas completas, com aula bônus e certificado.</p></article>
+      <article class="card tilt rv" style="--d:.16s"><div class="cico"><svg class="ic"><use href="#i-mega"/></svg></div><h3>Marketing digital</h3><p>Ações de divulgação para os estabelecimentos e divulgação para eventos.</p></article>
+      <article class="card tilt rv" style="--d:.0s"><div class="cico"><svg class="ic"><use href="#i-gift"/></svg></div><h3>Sorteios e prêmios</h3><p>Sorteios mensais, inovação e premiações para membros e clientes.</p></article>
+      <article class="card tilt rv" style="--d:.08s"><div class="cico"><svg class="ic"><use href="#i-box"/></svg></div><h3>Dropshipping</h3><p>Uma forma de ampliar sua renda vendendo produtos sem estoque.</p></article>
+      <article class="card tilt rv" style="--d:.16s"><div class="cico"><svg class="ic"><use href="#i-doc"/></svg></div><h3>Contratos e cadastro</h3><p>Suporte com cadastro e contratos para o seu negócio funcionar bem.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ========= NÚMEROS (faixa própria) ========= -->
+<section class="numbers" aria-label="O Clubel em números">
+  <div class="container">
+    <div class="nums">
+      <div class="num rv"><b data-count="7">0</b><span>categorias de profissionais</span></div>
+      <div class="num rv" style="--d:.1s"><b data-count="20" data-pre="+" data-suf=" mil">0</b><span>estabelecimentos com descontos e cashback</span></div>
+      <div class="num rv" style="--d:.2s"><b data-count="24" data-suf="h">0</b><span>telemedicina para você e dependentes</span></div>
+      <div class="num rv" style="--d:.3s"><b data-count="12">0</b><span>sorteios por ano (mensais)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= EDUCAÇÃO: UNICORP ========= -->
+<section class="edu" id="educacao">
+  <div class="container">
+    <div class="edu-grid">
+      <div class="rv z">
+        <div class="edu-logos">
+          <img class="l1" src="img/logo-clubel-unicorp.png" alt="Clubel" loading="lazy">
+          <div class="x">em parceria com</div>
+          <img class="l2" src="img/logo-unicorp.jpg" alt="Grupo Unicorp - Educação e Desenvolvimento" loading="lazy">
+        </div>
+      </div>
+      <div class="edu-text">
+        <span class="eyebrow rv">Educação</span>
+        <h2 class="title rv" style="--d:.1s">Estude com o <span class="y">Grupo Unicorp</span></h2>
+        <p class="rv" style="--d:.2s">A educação é um dos principais pilares capazes de transformar o mundo. É por meio dela que uma pessoa se torna cidadã e obtém as condições para ser produtiva, através de habilidades profissionais.</p>
+        <p class="rv" style="--d:.3s">O <strong>Clubel</strong>, em parceria com o <strong>Grupo Unicorp – Educação e Desenvolvimento</strong>, oferece aos associados a oportunidade de ensino nas áreas de:</p>
+        <div class="areas rv" style="--d:.35s"><span>EJA</span><span>Cursos profissionalizantes</span><span>Graduações</span><span>Pós-graduações</span></div>
+        <p class="rv" style="--d:.4s">Os cursos da <strong>UNICORP Faculdades</strong> são oferecidos para interessados no Brasil inteiro, com aprendizagem moderna e diversas ferramentas que buscam garantir um ensino de qualidade.</p>
+        <a href="#cadastro" class="btn btn-y rv" style="--d:.45s">Quero estudar com o Clubel <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="course rv">
+      <div class="course-head">
+        <div>
+          <span class="eyebrow">Curso em destaque</span>
+          <h3>Curso de maquiagem profissional</h3>
+          <p>20 aulas completas com as mais modernas técnicas e uma aula bônus super especial.</p>
+        </div>
+        <div class="stats2"><div><b>20</b><span>aulas completas</span></div><div><b>~15h</b><span>de conteúdo</span></div></div>
+      </div>
+      <ul class="lessons"><li>Preparação de Pele Oleosa</li><li>Preparação de Pele Seca</li><li>Pele negra e suas particularidades</li><li>Pele Oriental</li><li>Pele com Acne</li><li>Preparando Pele Madura</li><li>Sobrancelhas</li><li>Correção de Olheiras</li><li>Esfumado Clássico</li><li>Pálpebra Luz</li><li>Esfumado em C Fechado</li><li>Olho oriental</li><li>Esfumado Diagonal</li><li>Olho com Glitter</li><li>Noiva</li><li>Semi Cut Crease</li><li>Cut Crease</li><li>Esfumado em V</li><li>Delineado Gráfico</li><li>Noções de Colorimetria</li><li>Direcionamento da Carreira</li></ul>
+      <div class="adv">
+        <div><svg class="ic"><use href="#i-check"/></svg>Certificado reconhecido e válido em todo o Brasil</div>
+        <div><svg class="ic"><use href="#i-check"/></svg>Suporte online de segunda a sábado, das 8h às 18h</div>
+        <div><svg class="ic"><use href="#i-check"/></svg>Aulas de qualidade com aprendizado garantido</div>
+      </div>
+      <div class="cta-line"><strong>Invista em seu futuro. Aproveite esta oportunidade.</strong><a href="#cadastro" class="btn btn-y">Informe-se hoje mesmo <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= PARCEIRA: CAPEMISA ========= -->
+<section class="partner" id="parceira">
+  <div class="container partner-grid">
+    <div class="partner-text">
+      <span class="eyebrow rv">Parceira oficial</span>
+      <h2 class="title rv" style="--d:.1s">Capemisa Seguradora, <span class="y">nossa grande parceira</span></h2>
+      <p class="rv" style="--d:.2s">A <strong>Capemisa Seguradora</strong> é a empresa responsável por assegurar aos associados do Clubel o direito de participar de sorteios.</p>
+      <p class="rv" style="--d:.3s">Com mais de 60 anos dedicados ao mercado de Seguros, Previdência e Capitalização, a CAPEMISA Seguradora é uma empresa que soma junto com o CLUBEL.</p>
+      <p class="rv" style="--d:.4s">Seja um associado do Clubel e desfrute de todos os benefícios oferecidos por nossos sólidos parceiros.</p>
+      <a href="#cadastro" class="btn btn-y rv" style="--d:.5s">Quero ser associado <svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="partner-visual rv r">
+      <div class="logo-panel">
+        <img src="img/logo-capemisa.jpg" alt="Capemisa Seguradora" width="760" loading="lazy">
+      </div>
+      <div class="p-badge"><b>+60</b><span>anos de mercado</span></div>
+      <ul class="p-tags">
+        <li>Seguros</li><li>Previdência</li><li>Capitalização</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========= COMO FUNCIONA ========= -->
+<section class="how" id="como">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">Como funciona</span>
+      <h2 class="title rv" style="--d:.1s">Simples, rápido e <span class="y">sem complicação</span></h2>
+      <p class="sub rv" style="--d:.2s">Em poucos passos o seu salão já faz parte do clube.</p>
+    </div>
+    <div class="steps rv" id="steps">
+      <div class="step"><div class="dot">1</div><h3>Cadastre seu salão</h3><p>Preencha o formulário ou fale com a equipe pelo WhatsApp.</p></div>
+      <div class="step"><div class="dot">2</div><h3>Ative seus benefícios</h3><p>Escolha as vantagens que fazem sentido e comece a aproveitar.</p></div>
+      <div class="step"><div class="dot">3</div><h3>Cresça com o clube</h3><p>Participe de marketing, campanhas, promoções e sorteios.</p></div>
+    </div>
+    <div class="clients rv">
+      <svg class="ic"><use href="#i-star"/></svg>
+      <p><strong>Seus clientes também ganham.</strong> Eles participam de premiações e campanhas de fidelidade, o que ajuda a manter a agenda sempre cheia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========= PORTFÓLIO ========= -->
+<section id="portfolio">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">Portfólio</span>
+      <h2 class="title rv" style="--d:.1s">Trabalhos que <span class="y">inspiram</span></h2>
+      <p class="sub rv" style="--d:.2s">Uma amostra dos serviços dos profissionais que fazem parte do clube. As imagens abaixo são ilustrativas e serão trocadas por fotos reais.</p>
+    </div>
+    <div class="filters rv" id="filters">
+      <button class="on" data-f="all">Todos</button>
+      <button data-f="cabelo">Cabelo</button>
+      <button data-f="unhas">Unhas</button>
+      <button data-f="maquiagem">Maquiagem</button>
+      <button data-f="estetica">Estética</button>
+      <button data-f="barba">Barbearia</button>
+    </div>
+    <div class="gallery rv" id="gallery">
+      <figure class="work wide" data-cat="cabelo">
+        <div class="ph k1"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-scissors"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Cabelo</small><b>Coloração e mechas</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="unhas">
+        <div class="ph k2"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-nail"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Unhas</small><b>Nail art delicada</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="maquiagem">
+        <div class="ph k3"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-lip"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Maquiagem</small><b>Make glow para noivas</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="estetica">
+        <div class="ph k4"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-leaf"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Estética</small><b>Limpeza de pele</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="barba">
+        <div class="ph k5"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-scissors"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Barbearia</small><b>Corte e barba clássica</b></figcaption>
+      </figure>
+      <figure class="work wide" data-cat="cabelo">
+        <div class="ph k6"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-scissors"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Cabelo</small><b>Corte e escova</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="unhas">
+        <div class="ph k7"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-nail"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Unhas</small><b>Alongamento em gel</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="maquiagem">
+        <div class="ph k8"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-lip"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Maquiagem</small><b>Olho esfumado</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="estetica">
+        <div class="ph k9"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-hands"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Estética</small><b>Massagem relaxante</b></figcaption>
+      </figure>
+      <figure class="work" data-cat="unhas">
+        <div class="ph k10"></div>
+        <div class="art"><span class="orb o1"></span><span class="orb o2"></span><span class="glass"><svg class="ic"><use href="#i-foot"/></svg></span></div>
+        <span class="ill">Imagem ilustrativa</span>
+        <figcaption class="cap"><small>Podologia</small><b>Spa dos pés</b></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========= EQUIPE ========= -->
+<section class="team" id="equipe">
+  <div class="container team-grid">
+    <div class="team-text">
+      <span class="eyebrow rv">Nossa equipe</span>
+      <h2 class="title rv" style="--d:.1s">Gente que vive a <span class="y">beleza</span> com você</h2>
+      <p class="rv" style="--d:.2s">A equipe Clubel está presente em eventos, feiras e encontros do setor, de perto com donos de salão e profissionais, ouvindo e criando benefícios que fazem diferença no dia a dia.</p>
+      <ul class="team-points rv" style="--d:.3s">
+        <li><svg class="ic"><use href="#i-check"/></svg>Presença em eventos e feiras de beleza</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Atendimento próximo e humano</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Suporte online para associados</li>
+      </ul>
+      <a href="#cadastro" class="btn btn-y rv" style="--d:.4s">Quero fazer parte <svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="team-card rv r" id="teamCard" aria-roledescription="carrossel" aria-label="Fotos da equipe Clubel">
+      <div class="team-stage" id="teamStage"></div>
+      <div class="team-bar"><i id="teamBar"></i></div>
+      <div class="team-dots" id="teamDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= FAQ ========= -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">Dúvidas frequentes</span>
+      <h2 class="title rv" style="--d:.1s">Ficou com alguma <span class="y">dúvida?</span></h2>
+    </div>
+    <div class="faqs rv">
+      <details><summary>Quem pode fazer parte do Clubel?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Proprietários de salões, barbeiros, manicures, esteticistas, maquiadoras, podologistas e massoterapeutas maiores de 18 anos.</p></details>
+      <details><summary>Quais benefícios o clube oferece?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Telemedicina 24h, Seguro Familiar, descontos e cashbacks em mais de 20 mil estabelecimentos, cursos e graduações com o Grupo Unicorp, curso de maquiagem profissional, marketing digital, dropshipping, sorteios mensais e divulgação para eventos.</p></details>
+      <details><summary>Como funciona a telemedicina?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Todos os associados e seus dependentes têm atendimento por médicos disponíveis 24 horas por dia.</p></details>
+      <details><summary>Quais cursos posso fazer?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Em parceria com o Grupo Unicorp, o Clubel oferece EJA, cursos profissionalizantes, graduações e pós-graduações, além do curso de maquiagem profissional com 20 aulas e certificado reconhecido em todo o Brasil.</p></details>
+      <details><summary>Meus clientes também participam?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Sim. Os clientes dos salões participam de premiações e campanhas de fidelidade.</p></details>
+      <details><summary>Como faço meu cadastro?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Preencha o formulário desta página ou chame a equipe pelo WhatsApp. Também atendemos pelo e-mail atendimento@clubel.com.br.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ========= CADASTRO ========= -->
+<section class="cta" id="cadastro">
+  <div class="container cta-grid">
+    <div class="rv l">
+      <span class="eyebrow">Cadastre seu salão</span>
+      <h2>Venha fazer parte do <span style="color:var(--yellow)">nosso clube.</span></h2>
+      <p>Preencha seus dados e continue a conversa direto no WhatsApp com a equipe Clubel. Rápido e sem compromisso.</p>
+      <div class="perks">
+        <div><svg class="ic"><use href="#i-check"/></svg>Cadastro simples</div>
+        <div><svg class="ic"><use href="#i-check"/></svg>Atendimento online</div>
+        <div><svg class="ic"><use href="#i-check"/></svg>Benefícios para você e seus clientes</div>
+      </div>
+    </div>
+    <form id="leadForm" class="rv r">
+      <h3>Quero fazer parte</h3>
+      <div class="f"><label for="nome">NOME COMPLETO</label><input id="nome" required placeholder="Seu nome"></div>
+      <div class="f"><label for="tel">WHATSAPP</label><input id="tel" required inputmode="tel" placeholder="(00) 00000-0000"></div>
+      <div class="f"><label for="prof">SUA ATUAÇÃO</label>
+        <select id="prof" required><option value="">Selecione</option><option>Proprietário(a) de salão</option><option>Barbeiro(a)</option><option>Manicure</option><option>Esteticista</option><option>Maquiador(a)</option><option>Podólogo(a)</option><option>Massoterapeuta</option></select></div>
+      <div class="f"><label for="salao">SALÃO / ESTABELECIMENTO (OPCIONAL)</label><input id="salao" placeholder="Nome do seu negócio"></div>
+      <button class="btn btn-y" type="submit">Enviar pelo WhatsApp <svg class="ic"><use href="#i-arrow"/></svg></button>
+      <p class="fine">Ao enviar, o WhatsApp abre com a mensagem pronta.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ========= RODAPÉ ========= -->
+<footer>
+  <div class="container">
+    <div class="fg">
+      <div>
+        <a href="#inicio" class="logo" aria-label="Clubel"><img id="logoFoot" alt="Clubel" width="187" height="40"></a>
+        <p>O Clubel se preocupa com você: benefícios de verdade para quem trabalha com beleza e bem-estar.</p>
+        <div class="soc">
+          <a class="so ig" href="https://www.instagram.com/clubeclubel" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ig"/></svg>@clubeclubel</a>
+          <a class="so" id="footWa" href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+      <div><h4>Navegue</h4><ul><li><a href="#quem">Para quem</a></li><li><a href="#beneficios">Benefícios</a></li><li><a href="#parceira">Parceira</a></li><li><a href="#como">Como funciona</a></li><li><a href="#portfolio">Portfólio</a></li><li><a href="#equipe">Equipe</a></li></ul></div>
+      <div><h4>Contato</h4><ul><li><a href="mailto:atendimento@clubel.com.br">atendimento@clubel.com.br</a></li><li><a href="#cadastro">Cadastre seu salão</a></li><li><a href="#faq">Dúvidas frequentes</a></li></ul></div>
+    </div>
+    <div class="copy"><span>© <span id="year"></span> Clubel. Todos os direitos reservados.</span><span>Atendimento online</span></div>
+  </div>
+</footer>
+
+<!-- ========= WHATSAPP FLUTUANTE ========= -->
+<a class="wa" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
