@@ -423,3 +423,8 @@ details{padding:4px 28px}
   .team-bar{left:20px;right:20px;bottom:24px}
 }
 @media (prefers-reduced-motion:reduce){.team-bar i{animation:none;width:100%}}
+
+/* fotos do portfólio: se o arquivo existir, cobre o degradê e esconde o ícone */
+.work .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.work:hover .photo{transform:scale(1.08)}
+.work.has-photo .art{display:none}
