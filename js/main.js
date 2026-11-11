@@ -121,3 +121,23 @@ if(fine){
 
 document.getElementById("logoFoot").src=document.getElementById("logoImg").src;
 document.getElementById("year").textContent=new Date().getFullYear();
+
+/* Links internos: rola até a seção sem colocar "#algo" na URL */
+(function(){
+  const clean=()=>{try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}};
+  document.addEventListener("click",e=>{
+    const a=e.target.closest('a[href^="#"]');
+    if(!a)return;
+    const id=a.getAttribute("href").slice(1);
+    e.preventDefault();
+    const el=id?document.getElementById(id):null;
+    if(el)el.scrollIntoView({behavior:"smooth",block:"start"});
+    else if(!id||id==="inicio")window.scrollTo({top:0,behavior:"smooth"});
+    clean();
+  });
+  if(location.hash){
+    const el=document.getElementById(location.hash.slice(1));
+    clean();
+    if(el)setTimeout(()=>el.scrollIntoView(),0);
+  }
+})();
